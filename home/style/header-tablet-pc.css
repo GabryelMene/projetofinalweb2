@@ -16,7 +16,11 @@
     color: white;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+    .header-mobile {
+        display: none; 
+    }
+    
     .header-tablet-pc {
         display: block;
     }
