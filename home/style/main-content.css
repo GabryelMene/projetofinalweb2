@@ -21,7 +21,7 @@
 
 /* MOBILE  */
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .main-content .div-slide-mobile {
         display: block;
     }
@@ -37,11 +37,15 @@
 
 /* TABLET - PC */
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
     .main-content .div-slide-tablet-pc {
         display: block;
         height: 350px;
 
+    }
+
+    .section-products {
+        margin: 200px;
     }
 }
 
@@ -93,7 +97,7 @@
     margin-bottom: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 600px) { 
+@media (min-width: 320px) and (max-width: 768px) { 
     .main-content .section-products .title-product {
         text-align: center;
      }
