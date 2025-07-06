@@ -43,10 +43,6 @@
         height: 350px;
 
     }
-
-    .section-products {
-        margin-top: 200px !important;
-    }
 }
 
 /* BRANDS SHOW */
@@ -88,6 +84,7 @@
 
 .main-content .section-products {
     margin: 15px;
+    margin-top: 200px !important;
 }
 
 .main-content .section-products .title-product {
