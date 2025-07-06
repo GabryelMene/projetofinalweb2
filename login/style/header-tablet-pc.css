@@ -16,11 +16,25 @@
     color: white;
 }
 
-@media (min-width: 600px) {
+/*
+@media (min-width: 400px) and (max-width: 600px) {
+    .header-mobile { 
+        display: block;
+    }
+}*/
+
+@media (max-width: 768px) {
+    .header-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
     .header-tablet-pc {
         display: block;
     }
 }
+
 
 .header-tablet-pc .header-items {
     height: 90px;
@@ -97,4 +111,3 @@
 .header-tablet-pc .header-list-item-5 {
     width: 100%;
 }
-
