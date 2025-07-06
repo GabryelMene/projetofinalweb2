@@ -84,7 +84,12 @@
 
 .main-content .section-products {
     margin: 15px;
-    margin-top: 200px !important;
+}
+
+@media (min-width: 768px) {
+    .main-content .section-products {
+        margin-top: 200px !important;
+    }
 }
 
 .main-content .section-products .title-product {
